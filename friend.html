@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to kakao talk</title>
+    <title>Friends - kakao talk</title>
   </head>
   <body>
     <div>
@@ -24,18 +24,24 @@
         </div>
       </div>
     </div>
-    <header class="Welcome-header">
-      <h1 class="Welcome-header__title">Welcome to KakaoTalk</h1>
-      <h2 class="Welcome-header__text">
-        If you have a Kakao Account, log in with your email or Phone number.
-      </h2>
-    </header>
-    <form action="friend.html" method="GET" id="login-form">
-      <input name="Username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log in" />
-      <a href="#">Find Kakao Account or password</a>
-    </form>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friend.html"><i class="fas fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       ;
