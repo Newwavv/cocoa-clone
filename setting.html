@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat /w 니코 - kakao talk</title>
+    <title>Settings - kakao talk</title>
   </head>
-  <body id="chat-screen">
+  <body>
     <div>
       <div class="status-bar">
         <div class="status-bar__column">
@@ -27,34 +27,42 @@
 
     <header class="alt-screen-header">
       <div class="alt-screen-header__column">
-        <a href="chats.html">
+        <a href="more.html">
           <i class="fas fa-angle-left fa-2x"></i>
         </a>
       </div>
       <div class="alt-screen-header__column">
-        <h1 class="alt-screen-header__title">Nico</h1>
+        <h1 class="alt-screen-header__title">Settings</h1>
       </div>
       <div class="alt-screen-header__column">
         <i class="fas fa-search fa-lg"></i>
-        <i class="fas fa-bars fa-lg"></i>
       </div>
     </header>
 
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
-
-      <div class="message-row">
-        <img
-          src="https://story.holapet.com/wp-content/uploads/2021/03/2-38.jpg"
-        />
-        <div class="message-row__content">
-          <span class="message__author">Nicolas Serrano</span>
-          <div class="message__info">
-            <span class="message__bubble">Hi!</span>
-            <span class="message__time">21:27</span>
+    <main class="main-screen">
+      <ul class="settings">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-        </div>
-      </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
