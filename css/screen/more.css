@@ -37,3 +37,29 @@
   font-size: 14px;
   opacity: 0.8;
 }
+
+.more__suggestion-icon-image2 {
+  background-color: rgb(245, 212, 245);
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.more__suggestion-icon-image3 {
+  background-color: rgb(73, 194, 250);
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
+}
