@@ -22,6 +22,7 @@
   right: -10px;
   font-weight: 600;
   position: absolute;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }
 
 .nav__notification2 {
@@ -37,4 +38,26 @@
   top: -5px;
   right: -10px;
   font-weight: 600;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }
+
+@keyframes notificationAnimation{
+  0% {transform: none;}
+  50%{transform: translateY(-5px);}
+  100%{transform: none;}
+}
+
+@keyframes NavbtnAnimation{
+  from {opacity: 0;}
+
+  to{ opacity: 1;
+  transform: none;}
+}
+
+.nav__btn {animation: NavbtnAnimation .3s ease-in-out forwards;
+  opacity: 0; 
+  transform: translateY(50px)}
+
+.nav__btn:nth-child(2) {animation-delay: 0.3s;}
+.nav__btn:nth-child(3) {animation-delay: 0.5s;}
+.nav__btn:last-child {animation-delay: 0.8s;}

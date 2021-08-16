@@ -26,3 +26,23 @@
   justify-content: space-between;
   padding-bottom: 25px;
 }
+
+.splash-screen{background-color: var(--yellow);
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 132px;
+width: 100vw;
+height: 100vh;
+top: 0px;
+animation: hidesplash .6s ease-in-out forwards;
+animation-delay: 1.5s;
+
+}
+
+@keyframes hidesplash {
+  from{opacity: 1;}
+  to{opacity: 0;
+    visibility: hidden;}
+}

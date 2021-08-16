@@ -12,3 +12,9 @@
 .screen-header__icon span {
   margin-left: 20px;
 }
+
+@keyframes cogAnimation {
+  from {transform:rotateZ(360deg);}
+  to {transform: none;}
+}
+.screen-header .fa-cog:hover{animation: cogAnimation 1s linear infinite;}
